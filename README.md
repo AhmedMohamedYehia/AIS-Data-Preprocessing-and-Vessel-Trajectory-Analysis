@@ -2,6 +2,9 @@
 
 This repository contains a Python-based solution for preprocessing AIS (Automatic Identification System) data and performing vessel trajectory analysis. The project is modular, flexible, and designed to handle large datasets, offering insights into vessel behavior and port congestion patterns. It includes data preprocessing, trajectory analysis, and visualizations like heatmaps and port maps.
 
+## Link to the full Documentation:
+**https://regal-cardinal-70d.notion.site/Report-on-AIS-Data-Preprocessing-and-Vessel-Trajectory-Analysis-Ahmed-Yehia-15298bf0dc9a8073801ae53a4103fa8b?pvs=4**
+
 ###  Data Preprocessing: 
 Cleans and prepares the raw AIS data for analysis.
 Analysis of Vessel Trajectories: Performs the analysis at four levels, from direct observations to strategic insights.
