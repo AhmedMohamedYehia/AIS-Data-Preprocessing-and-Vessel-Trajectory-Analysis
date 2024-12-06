@@ -1,0 +1,3 @@
+python -m venv DSAssignement
+.\DSAssignmentEnv\Scripts\activate
+pip install -r requirements.txt
