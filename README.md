@@ -2,14 +2,12 @@
 
 This repository contains a Python-based solution for preprocessing AIS (Automatic Identification System) data and performing vessel trajectory analysis. The project is modular, flexible, and designed to handle large datasets, offering insights into vessel behavior and port congestion patterns. It includes data preprocessing, trajectory analysis, and visualizations like heatmaps and port maps.
 
-Overview
-The project is divided into two main sections:
-
-Data Preprocessing: Cleans and prepares the raw AIS data for analysis.
+###  Data Preprocessing: 
+Cleans and prepares the raw AIS data for analysis.
 Analysis of Vessel Trajectories: Performs the analysis at four levels, from direct observations to strategic insights.
 Additionally, the repository includes solutions for handling large datasets efficiently, optimized using Pandas and other libraries.
 
-Tools and Libraries Used
+### Tools and Libraries Used
 Python: Main programming language.
 Libraries:
 Pandas, NumPy
@@ -18,7 +16,7 @@ tqdm
 pyarrow, fastparquet (for large datasets)
 scikit-learn (for future modeling)
 Key Files and Folder Structure
-Main Files
+### Main Files
 AIS_Data_Preprocessing_and_Vessel_Trajectory_Analysis.ipynb:
 This is the core Jupyter notebook that drives the entire analysis process. It combines data cleaning, utility functions, and visualization generation, guiding the user through each step of the analysis. It is the most important file in the project and integrates the results of all other scripts.
 
@@ -45,8 +43,9 @@ A file listing all the dependencies and packages needed to run the analysis smoo
 Folder Structure
 data/: Contains all the raw and processed data files provided for the assignment (this folder is not uploaded to GitHub for privacy and file size reasons, but it should be re-added to your local environment).
 Installation and Setup
-1. Run run.txt First
-Before running any scripts or Jupyter notebooks, you must first execute the steps outlined in run.txt. This file will ensure that the required environment is activated and that all necessary imports are available for the analysis.
+## **Important**
+**1. Run run.txt First**
+**Before running any scripts or Jupyter notebooks, you must first execute the steps outlined in run.txt. This file will ensure that the required environment is activated and that all necessary imports are available for the analysis.**
 
 2. Install Dependencies
 Make sure to install the dependencies listed in requirements.txt by running the following command:
@@ -59,18 +58,18 @@ This will install all the necessary packages to execute the scripts and run the 
 3. Activate the Environment
 Follow the specific instructions in run.txt to activate the environment and set up any additional configuration required for the analysis.
 
-How to Use
+### How to Use
 Start with AIS_Data_Preprocessing_and_Vessel_Trajectory_Analysis.ipynb:
 This notebook will guide you through the data preprocessing and vessel trajectory analysis. It is designed to be interactive, allowing you to modify parameters as needed for your analysis.
 
-Explore the Analysis Levels:
+### Explore the Analysis Levels:
 The code is structured into different levels of analysis. You can start with basic observations and move on to more complex insights by modifying the parameters in the helper functions.
 
-Generate and View Visualizations:
+### Generate and View Visualizations:
 After processing the data, the analysis produces static HTML outputs like port maps and vessel heatmaps.
 
-Notes
+### Notes
 The repository is designed to handle large datasets efficiently, with optimizations using Pandas and libraries like pyarrow and fastparquet for handling large data files.
 You can easily extend the functionality by adding new helper functions or modifying existing ones.
-Conclusion
+### Conclusion
 This repository offers a comprehensive, modular approach to AIS data preprocessing and vessel trajectory analysis. By following the steps in the Jupyter notebook, you will gain valuable insights into vessel behaviors and port congestion patterns.
